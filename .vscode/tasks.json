@@ -1,0 +1,20 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Executar Biblioteca",
+      "type": "shell",
+      "windows": {
+        "command": ".\\mvnw.cmd spring-boot:run"
+      },
+      "linux": {
+        "command": "./mvnw spring-boot:run"
+      },
+      "osx": {
+        "command": "./mvnw spring-boot:run"
+      },
+      "isBackground": true,
+      "problemMatcher": []
+    }
+  ]
+}
